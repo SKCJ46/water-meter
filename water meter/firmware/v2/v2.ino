@@ -4,11 +4,11 @@
 #include "esp_sleep.h"
 
 // ===== CONFIG WiFi & Server =====
-const char* WIFI_SSID     = "Devonix_2.4G";
-const char* WIFI_PASSWORD = "Devonix9978168";
+const char* WIFI_SSID     = "xxxxxxxxxxxxxxx";
+const char* WIFI_PASSWORD = "xxxxxxxxxxxxxxx";
 
 // ใช้ IP ของเครื่อง AppServ (ห้ามใช้ localhost)
-const char* SERVER_URL    = "http://192.168.1.81/meter_upload.php";
+const char* SERVER_URL    = "http://xxxxxxxxx/meter_upload.php";
 const char* DEVICE_ID     = "ESP32CAM_01";
 
 // ตอนทดสอบ: ถ่ายทุก 60 วินาที
