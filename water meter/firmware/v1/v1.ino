@@ -4,12 +4,12 @@
 #include "esp_sleep.h"
 
 // ====== CONFIG WiFi & Server ======
-const char* WIFI_SSID     = "Devonix_2.4G";
-const char* WIFI_PASSWORD = "Devonix9978168";
+const char* WIFI_SSID     = "xxxxxxxxxxxxxx";
+const char* WIFI_PASSWORD = "xxxxxxxxxxxxxx";
 
 // URL ของ PHP endpoint ในเซิร์ฟเวอร์เราเอง (ไม่ใช่ HTTPS จะง่ายสุด)
 // สมมติพี่รัน Apache ที่ 192.168.1.10 และไฟล์อยู่ที่ /var/www/html/meter_upload.php
-const char* SERVER_URL    = "http://192.168.1.81/meter_upload.php";
+const char* SERVER_URL    = "xxxxxxxxxxxxxx";
 
 const char* DEVICE_ID     = "ESP32CAM_01";  // เอาไว้แยกหลายตัวในอนาคต
 
