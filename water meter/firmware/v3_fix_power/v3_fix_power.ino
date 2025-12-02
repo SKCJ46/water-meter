@@ -8,11 +8,11 @@
 #include "soc/rtc_cntl_reg.h"
 
 // ====== CONFIG WiFi & Server ======
-const char* WIFI_SSID     = "CJnaJA";
-const char* WIFI_PASSWORD = "11223344";
+const char* WIFI_SSID     = "xxxxxxx";
+const char* WIFI_PASSWORD = "xxxxxxx";
 
 // PHP endpoint บน AppServ/XAMPP
-const char* SERVER_URL    = "http://172.20.10.8/meter_upload.php";
+const char* SERVER_URL    = "http://xxx.xx.xx.x/meter_upload.php";
 const char* DEVICE_ID     = "ESP32CAM_01";
 
 // นาทีที่อยากให้ตื่นมาถ่าย (ตอนนี้ตั้งไว้ 1 นาที)
